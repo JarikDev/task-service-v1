@@ -1,7 +1,7 @@
-package com;
+package com.taskservice;
 
 
-import com.taskservice.TaskCreationInterceptor;
+import com.taskservice.task.TaskCreationInterceptor;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;

@@ -1,4 +1,4 @@
-package com.taskservice;
+package com.taskservice.task;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -33,7 +33,7 @@ public class TaskController {
             return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
         }
         if (service.taskExists(id)) {
-            return new ResponseEntity<>(service.getAllTasks(id), HttpStatus.OK);
+            return new ResponseEntity<>(service.getTask(id), HttpStatus.OK);
         }
         return new ResponseEntity<>(HttpStatus.NOT_FOUND);
     }

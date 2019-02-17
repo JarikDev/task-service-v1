@@ -1,4 +1,4 @@
-package com.taskservice;
+package com.taskservice.task;
 
 public enum TaskStatus {
     CREATED,

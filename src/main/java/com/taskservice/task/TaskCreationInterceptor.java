@@ -1,4 +1,4 @@
-package com.taskservice;
+package com.taskservice.task;
 
 import org.springframework.http.HttpMethod;
 import org.springframework.stereotype.Component;

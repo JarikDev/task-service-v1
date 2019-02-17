@@ -1,4 +1,4 @@
-package com.taskservice;
+package com.taskservice.task;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
